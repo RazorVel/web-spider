@@ -1,0 +1,31 @@
+{
+  "name": "web-spider",
+  "version": "1.0.0",
+  "description": "A simple CLI-based web crawler",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RazorVel/web-spider.git"
+  },
+  "keywords": [
+    "crawler",
+    "spider",
+    "scrapper"
+  ],
+  "author": "Razor Velvet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RazorVel/web-spider/issues"
+  },
+  "homepage": "https://github.com/RazorVel/web-spider#readme",
+  "dependencies": {
+    "istextorbinary": "^6.0.0",
+    "mkdirp": "^3.0.1",
+    "slug": "^8.2.3",
+    "superagent": "^8.0.9"
+  }
+}
